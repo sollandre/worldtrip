@@ -1,0 +1,29 @@
+.mySwipper {
+  grid-column: span 3 /-1;
+  grid-row: 1 / -1;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+
+.bulletClass.bulletActive {
+  background-color: var(--chakra-colors-highlight-500);
+}
+
+.bulletClass{
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100%;
+  background-color: var(--chakra-colors-dark-100);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 30em) {
+  .bulletClass{
+    height: .5rem;
+    width: .5rem;
+  }  
+}
+
