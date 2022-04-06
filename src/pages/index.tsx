@@ -7,7 +7,6 @@ import { TravelTypeBar } from "../components/TravelTypeBar"
 export default function Home() {
   return (
     <>
-      <Header />
       <Banner />
       <TravelTypeBar />
       <Divider

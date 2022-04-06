@@ -32,8 +32,13 @@ const continentData = [
   },
   {
     background: '/continents/na.jpg',
-    title: 'América',
+    title: 'América do Norte',
     description: 'Os países e atracões mais visitados'
+  },
+  {
+    background: '/continents/sa.jpg',
+    title: 'América do Sul',
+    description: 'Um paraíso na terra'
   },
   {
     background: '/continents/africa.jpg',
@@ -85,10 +90,15 @@ export function Carousel() {
       >
         {
           continentData.map((data, index) => {
+            const href = data.background.match(/\/(\w*)\./)[0].slice(1, -1);
+            const carouselCardProps = {
+              ...data,
+              href
+            }
             return (
               <SwiperSlide key={index}>
                 <CarouselCard 
-                   {...data}
+                   {...carouselCardProps}
                 />
               </SwiperSlide>
             )

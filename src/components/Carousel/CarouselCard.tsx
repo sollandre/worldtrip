@@ -1,14 +1,16 @@
-import { Box, Heading, Text } from "@chakra-ui/react";
+import { Box, Heading, LinkBox, LinkOverlay, Text } from "@chakra-ui/react";
+import NextLink from 'next/link'
 
 interface CarouselCardProps{
   background: string;
   title: string;
   description: string;
+  href: string;
 } 
 
-export function CarouselCard({background, title, description}: CarouselCardProps){
+export function CarouselCard({background, title, description, href}: CarouselCardProps){
   return (
-    <Box
+    <LinkBox
       h='100%'
       w='100%'
       p='2rem'
@@ -22,12 +24,16 @@ export function CarouselCard({background, title, description}: CarouselCardProps
       textAlign='center'
       color='light.500'
     >
-      <Heading fontSize={['2xl', '7xl']} mb={['3', '8']}>
-        {title}
-      </Heading>
-      <Text fontSize={['lg','3xl']} fontWeight='bold'>
-        {description}
-      </Text>
-    </Box>
+      <NextLink href={`/${href}`} passHref>
+        <LinkOverlay>
+          <Heading fontSize={['2xl', '7xl']} mb={['3', '8']}>
+            {title}
+          </Heading>
+          <Text fontSize={['lg','3xl']} fontWeight='bold'>
+            {description}
+          </Text>
+        </LinkOverlay>  
+      </NextLink>
+    </LinkBox>
   );
 }

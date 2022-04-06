@@ -1,0 +1,836 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "continentName": "Europa",
+      "continentCover": "https://images.unsplash.com/photo-1545430868-65762127bbfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "countryCount": 50,
+      "languageCount": 60,
+      "cities100Count": 28
+    },
+    {
+      "id": 2,
+      "continentName": "Asia",
+      "continentCover": "https://images.unsplash.com/photo-1535139262971-c51845709a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "description": "A terra de joias escondidas, templos, ruas abarrotadas e praias maravilhosas. A Asia não vai apenas encher seu estômago como também seu coração. Prepare-se para os saborear a diversidade das culturas dessa região enquanto explora esse vasto continente e todos seus sabores.",
+      "countryCount": 50,
+      "languageCount": 72,
+      "cities100Count": 49
+    },
+    {
+      "id": 3,
+      "continentName": "Africa",
+      "continentCover": "https://images.unsplash.com/photo-1509099896299-af46ad97ff57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      "description": "Os espaços da Nação Arco-Íris trazem histórias de diferentes povos, tornando-se um verdadeiro caldeirão de diversidade que merece ser conhecido. Além da riqueza cultural, há muito o que fazer na Africa: cenários deslumbrantes, penhascos com vista para Oceano Índico e Atlântico Sul, safáris cheios de energia e roteiros que ficam gravados na memória.",
+      "countryCount": 54,
+      "languageCount": 29,
+      "cities100Count": 4
+    },
+    {
+      "id": 4,
+      "continentName": "America do Norte",
+      "continentCover": "https://images.unsplash.com/photo-1529523432680-4e2a3f0c8ff8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fG5vcnRoJTIwYW1lcmljYXxlbnwwfDB8MHx8",
+      "description": "O turismo na América do Norte é como um grande e variado cardápio. Há opções de cidades urbanas e cosmopolitas, desérticas, nevadas, outras para quem gosta de sossego, de baladas, de parques de diversão, de turismo de aventura. Viajar para um dos países da América do Norte, ou para todos, é o sonho de consumo de muitos viajantes de todo o mundo.",
+      "countryCount": 23,
+      "languageCount": 3,
+      "cities100Count": 10
+    },
+    {
+      "id": 5,
+      "continentName": "America do Sul",
+      "continentCover": "https://images.unsplash.com/photo-1545832063-74f2d924b61a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      "description": "Conhecer a fundo a América do Sul é a certeza de encontrar as mais extremas paisagens urbanas e naturais. Se no extremo sul temos as imagens geladas da Patagônia Chilena e Argentina, mais ao norte predomina a Floresta Amazônica, com flora e fauna abundantes. Da extensa Cordilheira dos Andes às belas praias da costa brasileira, são diversos os desenhos de plano de fundo. ",
+      "countryCount": 12,
+      "languageCount": 9,
+      "cities100Count": 3
+    },
+    {
+      "id": 6,
+      "continentName": "Oceania",
+      "continentCover": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format",
+      "description": "O menor dos continentes é, também, um dos mais versáteis destinos a ser desbravado, de braços abertos tanto para quem não abre mão de uma boa estrutura e muito conforto para curtir sol e mar nas viagens, quanto para os exploradores mais ativos, que curtem mochila nas costas.",
+      "countryCount": 14,
+      "languageCount": 30,
+      "cities100Count": 3
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "cityName": "Abu Dhabi",
+      "cityImage": "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United Arab Emirates",
+      "countryIcon": "united-arab-emirates-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 2,
+      "cityName": "Agra",
+      "cityImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "India",
+      "countryIcon": "india-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 3,
+      "cityName": "Amsterdam",
+      "cityImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Netherlands",
+      "countryIcon": "netherlands-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 4,
+      "cityName": "Antalya",
+      "cityImage": "https://images.unsplash.com/photo-1593238739364-18cfde30e522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Turkey",
+      "countryIcon": "turkey-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 5,
+      "cityName": "Auckland",
+      "cityImage": "https://images.unsplash.com/photo-1600208669687-f19af3638cb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "New Zealand",
+      "countryIcon": "new-zealand-icon.png",
+      "continentId": 6
+    },
+    {
+      "id": 6,
+      "cityName": "Bangalore",
+      "cityImage": "https://images.unsplash.com/photo-1581533961790-5ab6ecdf8254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "India",
+      "countryIcon": "india-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 7,
+      "cityName": "Bangkok",
+      "cityImage": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Thailand",
+      "countryIcon": "thailand-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 8,
+      "cityName": "Barcelona",
+      "cityImage": "https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Spain",
+      "countryIcon": "spain-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 9,
+      "cityName": "Batam",
+      "cityImage": "https://images.unsplash.com/photo-1629643570024-e6062c016143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Indonesia",
+      "countryIcon": "indonesia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 10,
+      "cityName": "Beijing",
+      "cityImage": "https://images.unsplash.com/photo-1537410056906-d336ddf64024?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "China",
+      "countryIcon": "china-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 11,
+      "cityName": "Berlin",
+      "cityImage": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Germany",
+      "countryIcon": "germany-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 12,
+      "cityName": "Brussels",
+      "cityImage": "https://images.unsplash.com/photo-1548092304-e0205cb0031b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Belgium",
+      "countryIcon": "belgium-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 13,
+      "cityName": "Budapest",
+      "cityImage": "https://images.unsplash.com/photo-1549877452-9c387954fbc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Hungary",
+      "countryIcon": "hungary-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 14,
+      "cityName": "Buenos Aires",
+      "cityImage": "https://images.unsplash.com/photo-1612294037637-ec328d0e075e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Argentina",
+      "countryIcon": "argentina-icon.png",
+      "continentId": 5
+    },
+    {
+      "id": 15,
+      "cityName": "Cairo",
+      "cityImage": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Egypt",
+      "countryIcon": "egypt-icon.png",
+      "continentId": 3
+    },
+    {
+      "id": 16,
+      "cityName": "Cancun",
+      "cityImage": "https://images.unsplash.com/photo-1616423841125-8307665a0469?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Mexico",
+      "countryIcon": "mexico-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 17,
+      "cityName": "Cebu City",
+      "cityImage": "https://images.unsplash.com/photo-1578188444860-88d1f5794e8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Philippines",
+      "countryIcon": "philippines-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 18,
+      "cityName": "Chennai",
+      "cityImage": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "India",
+      "countryIcon": "india-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 19,
+      "cityName": "Chiang Mai",
+      "cityImage": "https://images.unsplash.com/photo-1578157695179-d7b7ddeb2f53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Thailand",
+      "countryIcon": "thailand-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 20,
+      "cityName": "Chiba",
+      "cityImage": "https://images.unsplash.com/photo-1621412980548-69d4ea7beba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Japan",
+      "countryIcon": "japan-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 21,
+      "cityName": "Copenhagen",
+      "cityImage": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Denmark",
+      "countryIcon": "denmark-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 22,
+      "cityName": "Da Nang",
+      "cityImage": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Vietnam",
+      "countryIcon": "vietnam-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 23,
+      "cityName": "Dammam",
+      "cityImage": "https://images.unsplash.com/photo-1578895101408-1a36b834405b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Saudi Arabia",
+      "countryIcon": "saudi-arabia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 24,
+      "cityName": "Delhi",
+      "cityImage": "https://images.unsplash.com/photo-1597040663342-45b6af3d91a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "India",
+      "countryIcon": "india-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 25,
+      "cityName": "Denpasar",
+      "cityImage": "https://images.unsplash.com/photo-1592364395653-83e648b20cc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Indonesia",
+      "countryIcon": "indonesia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 26,
+      "cityName": "Dubai",
+      "cityImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United Arab Emirates",
+      "countryIcon": "united-arab-emirates-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 27,
+      "cityName": "Dublin",
+      "cityImage": "https://images.unsplash.com/photo-1518005068251-37900150dfca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Ireland",
+      "countryIcon": "ireland-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 28,
+      "cityName": "Florence",
+      "cityImage": "https://images.unsplash.com/photo-1543429257-3eb0b65d9c58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Italy",
+      "countryIcon": "italy-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 29,
+      "cityName": "Frankfurt am Main",
+      "cityImage": "https://images.unsplash.com/photo-1605186620429-1ece911f171c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Germany",
+      "countryIcon": "germany-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 30,
+      "cityName": "Fukuoka",
+      "cityImage": "https://images.unsplash.com/photo-1618897037073-5edb010d92f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Japan",
+      "countryIcon": "japan-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 31,
+      "cityName": "Guangzhou",
+      "cityImage": "https://images.unsplash.com/photo-1544594376-0a9a6ae2c997?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "China",
+      "countryIcon": "china-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 32,
+      "cityName": "Guilin",
+      "cityImage": "https://images.unsplash.com/photo-1587421324987-3449402f6f57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "China",
+      "countryIcon": "china-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 33,
+      "cityName": "Ha Long",
+      "cityImage": "https://images.unsplash.com/photo-1528127269322-539801943592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Vietnam",
+      "countryIcon": "vietnam-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 34,
+      "cityName": "Hanoi",
+      "cityImage": "https://images.unsplash.com/photo-1509030450996-dd1a26dda07a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Vietnam",
+      "countryIcon": "vietnam-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 35,
+      "cityName": "Heraklion",
+      "cityImage": "https://images.unsplash.com/photo-1601224065850-24bfad5400bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Greece",
+      "countryIcon": "greece-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 36,
+      "cityName": "Ho Chi Minh City",
+      "cityImage": "https://images.unsplash.com/photo-1597307932023-38eeb19069ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Vietnam",
+      "countryIcon": "vietnam-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 37,
+      "cityName": "Hong Kong",
+      "cityImage": "https://images.unsplash.com/photo-1532455935509-eb76842cee50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Hong Kong",
+      "countryIcon": "hongkong-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 38,
+      "cityName": "Honolulu",
+      "cityImage": "https://images.unsplash.com/photo-1581720488341-a02fe8d6575d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United States",
+      "countryIcon": "usa-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 39,
+      "cityName": "Hurghada",
+      "cityImage": "https://images.unsplash.com/photo-1584116527177-5f6ee4d4d777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Egypt",
+      "countryIcon": "egypt-icon.png",
+      "continentId": 3
+    },
+    {
+      "id": 40,
+      "cityName": "Istanbul",
+      "cityImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Turkey",
+      "countryIcon": "turkey-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 41,
+      "cityName": "Jaipur",
+      "cityImage": "https://images.unsplash.com/photo-1578999935853-4ec5fa6c1f60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "India",
+      "countryIcon": "india-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 42,
+      "cityName": "Jakarta",
+      "cityImage": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Indonesia",
+      "countryIcon": "indonesia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 43,
+      "cityName": "Jeju",
+      "cityImage": "https://images.unsplash.com/photo-1596941248238-0d49dcaa4263?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "South Korea",
+      "countryIcon": "south-korea-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 44,
+      "cityName": "Jerusalem",
+      "cityImage": "https://images.unsplash.com/photo-1614517453351-6c1522fc7a56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Israel",
+      "countryIcon": "israel-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 45,
+      "cityName": "Johannesburg",
+      "cityImage": "https://images.unsplash.com/photo-1610307766999-01f45d259959?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "South Africa",
+      "countryIcon": "south-africa-icon.png",
+      "continentId": 3
+    },
+    {
+      "id": 46,
+      "cityName": "Johor Bahru",
+      "cityImage": "https://images.unsplash.com/photo-1518439179742-d8c527d2b607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Malaysia",
+      "countryIcon": "malaysia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 47,
+      "cityName": "Kolkata",
+      "cityImage": "https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "India",
+      "countryIcon": "india-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 48,
+      "cityName": "Krabi",
+      "cityImage": "https://images.unsplash.com/photo-1586302836983-d1efb5eee221?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Thailand",
+      "countryIcon": "thailand-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 49,
+      "cityName": "Krakow",
+      "cityImage": "https://images.unsplash.com/photo-1606992894456-799462dacd65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Poland",
+      "countryIcon": "poland-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 50,
+      "cityName": "Kuala Lumpur",
+      "cityImage": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Malaysia",
+      "countryIcon": "malaysia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 51,
+      "cityName": "Kyoto",
+      "cityImage": "https://images.unsplash.com/photo-1558862107-d49ef2a04d72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Japan",
+      "countryIcon": "japan-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 52,
+      "cityName": "Las Vegas",
+      "cityImage": "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United States",
+      "countryIcon": "usa-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 53,
+      "cityName": "Lima",
+      "cityImage": "https://images.unsplash.com/photo-1577587230708-187fdbef4d91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Peru",
+      "countryIcon": "peru-icon.png",
+      "continentId": 5
+    },
+    {
+      "id": 54,
+      "cityName": "Lisbon",
+      "cityImage": "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Portugal",
+      "countryIcon": "portugal-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 55,
+      "cityName": "London",
+      "cityImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United Kingdom",
+      "countryIcon": "great-britain-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 56,
+      "cityName": "Los Angeles",
+      "cityImage": "https://images.unsplash.com/photo-1544763290-ea7d0cf38601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United States",
+      "countryIcon": "usa-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 57,
+      "cityName": "Madrid",
+      "cityImage": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Spain",
+      "countryIcon": "spain-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 58,
+      "cityName": "Marrakesh",
+      "cityImage": "https://images.unsplash.com/photo-1585004607620-fb4c44331e73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Morocco",
+      "countryIcon": "morocco-icon.png",
+      "continentId": 3
+    },
+    {
+      "id": 59,
+      "cityName": "Mecca",
+      "cityImage": "https://images.unsplash.com/photo-1605553378313-22d0dc541393?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Saudi Arabia",
+      "countryIcon": "saudi-arabia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 60,
+      "cityName": "Medina",
+      "cityImage": "https://images.unsplash.com/photo-1551041777-575d3855ca71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Saudi Arabia",
+      "countryIcon": "saudi-arabia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 61,
+      "cityName": "Melbourne",
+      "cityImage": "https://images.unsplash.com/photo-1545044846-351ba102b6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Australia",
+      "countryIcon": "australia-icon.png",
+      "continentId": 6
+    },
+    {
+      "id": 62,
+      "cityName": "Miami",
+      "cityImage": "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United States",
+      "countryIcon": "usa-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 63,
+      "cityName": "Milan",
+      "cityImage": "https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Italy",
+      "countryIcon": "italy-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 64,
+      "cityName": "Moscow",
+      "cityImage": "https://images.unsplash.com/photo-1495542779398-9fec7dc7986c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Russia",
+      "countryIcon": "russian-federation-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 65,
+      "cityName": "Mugla",
+      "cityImage": "https://images.unsplash.com/photo-1642588894968-f5946658dba8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Turkey",
+      "countryIcon": "turkey-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 66,
+      "cityName": "Mumbai",
+      "cityImage": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "India",
+      "countryIcon": "india-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 67,
+      "cityName": "Munich",
+      "cityImage": "https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Germany",
+      "countryIcon": "germany-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 68,
+      "cityName": "New York City",
+      "cityImage": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United States",
+      "countryIcon": "usa-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 69,
+      "cityName": "Nice",
+      "cityImage": "https://images.unsplash.com/photo-1491166617655-0723a0999cfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "France",
+      "countryIcon": "france-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 70,
+      "cityName": "Orlando",
+      "cityImage": "https://images.unsplash.com/photo-1575089776834-8be34696ffb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United States",
+      "countryIcon": "usa-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 71,
+      "cityName": "Osaka",
+      "cityImage": "https://images.unsplash.com/photo-1584505489290-96eb4e406d08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Japan",
+      "countryIcon": "japan-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 72,
+      "cityName": "Paris",
+      "cityImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "France",
+      "countryIcon": "france-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 73,
+      "cityName": "Pattaya",
+      "cityImage": "https://images.unsplash.com/photo-1625492206717-61c584a8b11e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Thailand",
+      "countryIcon": "thailand-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 74,
+      "cityName": "Penang Island",
+      "cityImage": "https://images.unsplash.com/photo-1639177212237-3bfa137fe7ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Malaysia",
+      "countryIcon": "malaysia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 75,
+      "cityName": "Phuket",
+      "cityImage": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Thailand",
+      "countryIcon": "thailand-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 76,
+      "cityName": "Porto",
+      "cityImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Portugal",
+      "countryIcon": "portugal-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 77,
+      "cityName": "Prague",
+      "cityImage": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Czech Republic",
+      "countryIcon": "czech-republic-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 78,
+      "cityName": "Rhodes",
+      "cityImage": "https://images.unsplash.com/photo-1527108097555-a5c5e36f3dd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Greece",
+      "countryIcon": "greece-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 79,
+      "cityName": "Rio de Janeiro",
+      "cityImage": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Brazil",
+      "countryIcon": "brazil-icon.png",
+      "continentId": 5
+    },
+    {
+      "id": 80,
+      "cityName": "Riyadh",
+      "cityImage": "https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Saudi Arabia",
+      "countryIcon": "saudi-arabia-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 81,
+      "cityName": "Rome",
+      "cityImage": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Italy",
+      "countryIcon": "italy-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 82,
+      "cityName": "Saint Petersburg",
+      "cityImage": "https://images.unsplash.com/photo-1603955129944-7f2dbff89b04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Russia",
+      "countryIcon": "russian-federation-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 83,
+      "cityName": "San Francisco",
+      "cityImage": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "United States",
+      "countryIcon": "usa-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 84,
+      "cityName": "Seoul",
+      "cityImage": "https://images.unsplash.com/photo-1581929986999-cd05dc8125b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "South Korea",
+      "countryIcon": "south-korea-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 85,
+      "cityName": "Shanghai",
+      "cityImage": "https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "China",
+      "countryIcon": "china-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 86,
+      "cityName": "Shenzhen",
+      "cityImage": "https://images.unsplash.com/photo-1522614288668-a697127e9b21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "China",
+      "countryIcon": "china-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 87,
+      "cityName": "Singapore",
+      "cityImage": "https://images.unsplash.com/photo-1496939376851-89342e90adcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Singapore",
+      "countryIcon": "singapore-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 88,
+      "cityName": "Stockholm",
+      "cityImage": "https://images.unsplash.com/photo-1588653818221-2651ec1a6423?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Sweden",
+      "countryIcon": "sweden-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 89,
+      "cityName": "Sydney",
+      "cityImage": "https://images.unsplash.com/photo-1526959300019-11dd99a21233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Australia",
+      "countryIcon": "australia-icon.png",
+      "continentId": 6
+    },
+    {
+      "id": 90,
+      "cityName": "Tel Aviv",
+      "cityImage": "https://images.unsplash.com/photo-1580681796086-1815d3306618?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Israel",
+      "countryIcon": "israel-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 91,
+      "cityName": "Tokyo",
+      "cityImage": "https://images.unsplash.com/photo-1549693578-d683be217e58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Japan",
+      "countryIcon": "japan-icon.png",
+      "continentId": 2
+    },
+    {
+      "id": 92,
+      "cityName": "Toronto",
+      "cityImage": "https://images.unsplash.com/photo-1526417501781-5e7e587b7686?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Canada",
+      "countryIcon": "canada-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 93,
+      "cityName": "Vancouver",
+      "cityImage": "https://images.unsplash.com/photo-1560813962-ff3d8fcf59ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Canada",
+      "countryIcon": "canada-icon.png",
+      "continentId": 4
+    },
+    {
+      "id": 94,
+      "cityName": "Venice",
+      "cityImage": "https://images.unsplash.com/photo-1558271736-cd043ef2e855?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Italy",
+      "countryIcon": "italy-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 95,
+      "cityName": "Vienna",
+      "cityImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Austria",
+      "countryIcon": "australia-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 96,
+      "cityName": "Warsaw",
+      "cityImage": "https://images.unsplash.com/photo-1607078486875-a697a8a38e87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "Poland",
+      "countryIcon": "poland-icon.png",
+      "continentId": 1
+    },
+    {
+      "id": 97,
+      "cityName": "Zhuhai",
+      "cityImage": "https://images.unsplash.com/photo-1568001731724-c868c383b0c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYXxlbnwwfDB8MHx8",
+      "countryName": "China",
+      "countryIcon": "china-icon.png",
+      "continentId": 2
+    }
+  ]
+}

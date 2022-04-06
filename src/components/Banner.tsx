@@ -1,4 +1,4 @@
-import { Flex, Heading, Stack, Text, Image, useBreakpoint, useBreakpointValue } from "@chakra-ui/react";
+import { Flex, Heading, Stack, Text, Image, useBreakpointValue } from "@chakra-ui/react";
 
 export function Banner() {
 
