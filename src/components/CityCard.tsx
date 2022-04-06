@@ -1,4 +1,4 @@
-import { Avatar, Box, Heading, HStack, VStack, Image, Text } from "@chakra-ui/react";
+import { Avatar, Box, Heading, HStack, VStack, Image, Text, Spinner } from "@chakra-ui/react";
 
 interface CityCardProps {
   cityImage: string;
@@ -19,6 +19,18 @@ export function CityCard({cityImage, cityName, countryName, countryAvatar}: City
         src={cityImage}
         height='11rem'
         borderTopRadius='inherit'
+        fallback={
+          <Box
+            display='flex'
+            alignItems='center'
+            justifyContent='center'
+            p='2rem'
+            h='11rem'
+            w='100%'
+          >
+            <Spinner />
+          </Box>
+        }
       />
       <VStack
         justifyContent='space-between'
@@ -43,7 +55,7 @@ export function CityCard({cityImage, cityName, countryName, countryAvatar}: City
           >
             {countryName}
           </Text>
-          <Avatar size='2rem' src={countryAvatar}/>
+          <Avatar size='md' src={countryAvatar}/>
         </HStack>
       </VStack>
     </Box>

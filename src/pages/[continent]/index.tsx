@@ -3,10 +3,10 @@ import axios from "axios";
 import { GetStaticPropsContext, NextPageContext } from "next";
 import { DataSummaryItem } from "../../components/DataSummaryItem";
 
-import cities100 from "../../../cities_100.json"
 import { stringify } from "querystring";
 import { CityCard } from "../../components/CityCard";
 import { api } from "../../services/citiesData";
+import { useEffect, useState } from "react";
 
 interface ContinentProps {
   id: number;
